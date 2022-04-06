@@ -129,3 +129,65 @@ header {
     right: -10px;
     font-weight: 700;
 }
+
+.header__account {
+    display: flex;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__user-img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.header__user-name {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.header__circle-link {
+    background: var(--button-link);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    color: var(--dark-color-text);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header__circle-link .fa-short-down {
+    position: relative;
+    top: -3px;
+    font-size: 1.4rem;
+}
+
+.header__link-icon {
+    font-size: .9rem;
+}
+
+.header__link-notification-bubble {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fb-red);
+    color: white;
+    width: 16px;
+    height: 16px;
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    font-weight: 700;
+    top: 10px;
+}
