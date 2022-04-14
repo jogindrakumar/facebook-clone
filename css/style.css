@@ -674,6 +674,31 @@ header {
     z-index: 3;
 }
 
+
+/* right navigation  */
+
+.sidenav__item-right-notification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.sidenav__item-right-title {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.sidenav__item-right-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 @media only screen and (max-width:1300px) {
     .header__menu-tabs {
         display: none;
